@@ -61,13 +61,13 @@ function nextCv() {
     let image = document.getElementById('image');
     let profile = document.getElementById('profile');
     if (currentCadidate != undefined){
-    image.innerHTML = `<img src="${currentCadidate.image}" alt="">`;
-    profile.innerHTML = `<ul class="list-group">
-    <li class="list-group-item">Name:${currentCadidate.name}</li>
-    <li class="list-group-item">${currentCadidate.age} year old</li>
-    <li class="list-group-item">From: ${currentCadidate.city}</li>
-    <li class="list-group-item">Language: ${currentCadidate.language}</li>
-  </ul>`
+    image.innerHTML = `<img class="h-60 w-h-60 rounded-full text-center" src="${currentCadidate.image}" alt="">`;
+    profile.innerHTML = `
+    <li class="pt-2 text-3xl font-sans">Name: ${currentCadidate.name}</li>
+    <li class="pt-2">${currentCadidate.age} year old</li>
+    <li class="pt-2">From: ${currentCadidate.city}</li>
+    <li class="pt-2">Language: ${currentCadidate.language}</li>
+  `
     }
     else{
         alert("End Of Applications")
