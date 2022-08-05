@@ -1,0 +1,29 @@
+{
+  "name": "cv-scanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dkumar-R/CV-Scanner.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dkumar-R/CV-Scanner.github.io/issues"
+  },
+  "homepage": "https://github.com/Dkumar-R/CV-Scanner.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.7"
+  },
+  "dependencies": {
+    "vite": "^3.0.4"
+  }
+}
